@@ -1,2 +1,19 @@
 // Import styles here
 @import "~bootstrap/scss/bootstrap";
+
+#container {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+
+}
+
+svg rect {
+    fill: orange;
+}
+
+svg text {
+    fill:white;
+    font: 10px sans-serif;
+    text-anchor: end;
+}
